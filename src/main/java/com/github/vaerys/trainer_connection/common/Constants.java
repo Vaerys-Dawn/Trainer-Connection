@@ -18,6 +18,7 @@ public class Constants {
     public static final String TRAINER_STATE_BATTLE = "Battle";
     public static final String TRAINER_STATE_IDLE = "Idle";
     public static final int MAX_DISTANCE = 100000;
+    public static final Identifier NPC_TC_DATAPACK_SYNC = Objects.requireNonNull(Identifier.of(NPCTrainerConnection.MOD_ID, "datapack_sync"));
 
     private Constants() {
         // hide constructor

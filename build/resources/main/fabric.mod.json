@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "trainer_connection",
-  "version": "0.1.0",
+  "id": "npctc",
+  "version": "1.0.0",
   "name": "NPC Trainer Connection",
   "description": "",
   "authors": [],

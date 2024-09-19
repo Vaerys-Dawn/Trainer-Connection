@@ -61,7 +61,7 @@ public class ConversationInterface extends Screen {
         super(Text.literal("Conversation Interface"));
         this.packet = packet;
         this.player = player;
-        this.trainerData = DataRegister.trainerDataList.get(packet.trainerID);
+        this.trainerData = ClientDataRegister.trainerDataList.get(packet.trainerID);
 
         isRematch = packet.challengerLink.battleWon && trainerData.isRematchEnabled();
 
